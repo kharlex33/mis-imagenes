@@ -1,0 +1,31 @@
+<svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Icono de Dashboard</title>
+  <desc>Icono estilizado representando un panel de control con varios gráficos.</desc>
+
+  <!-- Contenedor principal del Dashboard -->
+  <rect x="10" y="10" width="80" height="80" rx="8" ry="8"/>
+
+  <!-- Sección Superior Izquierda (Ej: Gráfico de Barras Simplificado) -->
+  <g stroke-width="3">
+    <line x1="25" y1="50" x2="25" y2="30" />
+    <line x1="35" y1="50" x2="35" y2="25" />
+    <line x1="45" y1="50" x2="45" y2="40" />
+    <!-- Base line for bars -->
+    <line x1="20" y1="50" x2="50" y2="50" stroke-width="2"/>
+  </g>
+
+  <!-- Sección Superior Derecha (Ej: Gráfico de Línea Simplificado) -->
+  <polyline points="60,45 70,30 80,40 90,25" stroke-width="3" fill="none"/>
+
+  <!-- Sección Inferior Izquierda (Ej: Indicador o KPI) -->
+  <rect x="20" y="60" width="30" height="20" rx="3" ry="3" stroke-width="3" fill="currentColor" stroke="none"/>
+   <!-- Simulación de texto dentro del indicador -->
+  <line x1="25" y1="68" x2="45" y2="68" stroke="#FFFFFF" stroke-width="2" stroke-linecap="butt"/>
+  <line x1="25" y1="73" x2="40" y2="73" stroke="#FFFFFF" stroke-width="2" stroke-linecap="butt"/>
+
+
+  <!-- Sección Inferior Derecha (Ej: Gráfico Circular Simplificado - Donut) -->
+  <circle cx="75" cy="70" r="12" stroke-width="3"/>
+  <circle cx="75" cy="70" r="6" fill="currentColor" stroke="none"/>
+
+</svg>
